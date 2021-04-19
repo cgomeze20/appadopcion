@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/mascotas_favoritas.css">
+    <title>Mascotas favoritas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor_cabecera margen">
+            <p class="adopta">Mascotas favoritas</p>
+        </div>
+        <section class="fotos">
+            <div class="fotos_contenedorleft">
+                <img class="imagen" src="img/dogone.png" alt="">
+                <img class="imagen" src="img/dogtwo.png" alt="">
+            </div>
+            <div class="fotos_contenedorright">
+                <img class="imagen" src="img/dogthree.png" alt="">
+                <img class="imagen" src="img/dogfour.png" alt="">
+            </div>
+        </section>
+        <div class="menu_bottom">
+                <a class="" href="tercera.html">
+                    <i class='bx bx-home-alt'><span class="">Home</span></i>
+                </a>
+                <a class="" href="mensaje.html">
+                    <i class='bx bx-message-rounded'><span class="">Mensaje</span></i>
+                </a>
+                <a class="active" href="mascotas_favoritas.html">
+                    <i class='bx bx-heart'><span class="activo" >Favoritos</span></i>
+                </a>
+                <a class="" href="perfil.html">
+                    <i class='bx bx-user'><span class="">Usuario</span></i>
+                </a>
+        </div>
+    </div>
+
+    <script>
+        let imagen = document.querySelectorAll('.imagen')
+       imagen.forEach(el => {
+           el.addEventListener('click',function(){
+               window.location.href = 'quinta.html'
+           })
+       })
+    </script>
+</body>
+</html>

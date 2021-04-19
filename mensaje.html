@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/mensaje.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor_cabecera margen">
+            <p class="mensaje">Mensajes </p>
+            <!-- <p class="categoria">Categorías de mascotas</p> -->
+            <div class="contenedor_mensaje">
+                <div class="foto_perfil">
+                    <img src="img/user.png" alt="">
+                </div>
+                <div class="detalle_mensaje">
+                    <p>Maria Dolores <span>4:36</span></p>
+                    <p>
+                        ¡Hola! claro, podemos acordar un lugar yhora para que conozcas...
+                    </p>
+                </div>
+                <div class="arrow">
+                    <img id="imagenClick" src="img/arrow-right.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="menu_bottom">
+            <a class="tab" href="tercera.html">
+                <i class='bx bx-home-alt'><span class="span">Home</span></i>
+            </a>
+            <a class="tab active" href="mensaje.html">
+                <i class='bx bx-message-rounded'><span class="span activo">Mensaje</span></i>
+            </a>
+            <a class="tab" href="mascotas_favoritas.html">
+                <i class='bx bx-heart'><span class="span" >Favoritos</span></i>
+            </a>
+            <a class="tab " href="perfil.html">
+                <i class='bx bx-user'><span class="span">Perfil</span></i>
+            </a>
+    </div>
+
+    </div>
+    <script src="./js/app.js"></script>
+    <script>
+        let flecha = document.getElementById('imagenClick')
+        flecha.addEventListener('click',()=>{
+            window.location.href = 'mensaje_detalle.html'
+        })
+    </script>
+</body>
+</html>

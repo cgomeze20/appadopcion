@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #A786DF;
+}
+.contenedor{
+ /* border: 1px solid red; */
+ width: 375px;
+ height: 1064px;
+ position: relative;
+ overflow-y: hidden;
+ margin: auto;
+}
+.contenedor-foto{
+    width: 100%;
+    height: 442px;
+    position: relative;
+}
+.contenedor-foto img{
+    width: 100%;
+    height: 442px;
+}
+.div-bottom{
+    width: 375px;
+    height: 636px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+   
+}
+.logo-boton{
+    width: 327px;
+    height:158px;
+    margin: 16px auto;
+}
+.logo-boton__div{
+    width: 327px;
+    height: 48px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.div-sex{
+    display: flex;
+    flex-basis: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.div-sex p{
+    font-size:24px;
+    font-weight: 700;
+}
+.div-sex img{
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+
+.div-hearthicon{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 48px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2)
+}
+.div-hearthicon img{
+    width: 24px;
+    height: 24px;
+}
+
+.div-raza{
+    width: 327px;
+    height: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.div-pergamino{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+.div-pergamino p{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color:  #535353;
+    margin-left: 5px;
+}
+
+.div-animal{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.div-animal p{
+    font-size: 14px;
+    color:  #535353;
+    margin-left:5px
+}
+
+
+
+
+
+.div-ciudad{
+    width: 327px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.div-iconlocation{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 10%;
+}
+
+.div-locationtexto{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    margin-left: 3px;
+}
+.div-iconlocation img{
+    width: 24px;
+    height: 24px;
+}
+.div-locationtexto span{
+    font-size: 14px;
+    color: #535353;
+}
+
+
+.div-personalidad{
+    width: 327px;
+    height: 125px;
+    margin: 32px auto;
+}
+.div-texto{
+    width: 327px;
+    height: 25px;
+}
+.div-texto p{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.div-cajones{
+    width: 327px;
+    height: 92px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-cajon{
+    border: 2px solid #A786DF;
+    width: 92px;
+    height: 92px;
+    border-radius: 8px;
+}
+
+.cajon1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.cajon1 img{
+    width: 40px;
+    height: 40px;
+}
+.cajon1 p{
+    font-size: 14px;
+    color:  #535353;
+}
+
+.cajon2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+.cajon2 img{
+    width: 40px;
+    height: 40px;
+}
+.cajon2 p{
+    font-size: 14px;
+    color:  #535353;
+}
+
+.cajon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+.cajon3 img{
+    width: 40px;
+    height: 40px;
+}
+.cajon3 p{
+    font-size: 14px;
+    color:  #535353;
+}
+
+
+.div-historia{
+    width: 327px;
+    height: 177px;
+    margin: 32px auto;
+}
+
+.div-titulo{
+    height: 25px;
+    margin-bottom: 8px;
+}
+.div-titulo p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+
+
+
+.div-leyenda{
+    height: 144px;
+}
+.div-leyenda p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535353;
+}
+
+.div-conectar{
+    width: 327px;
+    height: 48px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-usuario{
+    height: 48px;
+    width: 156px;
+    margin-right: 16px;
+    display: flex;
+}
+.div-fotouser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid #85D1CE;
+}
+.div-fotouser img{
+    width: 48px;
+    height: 48px;
+}
+
+.div-detalleuser{
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.div-detalleuser p:first-child{
+    font-size: 11px;
+    color: #535353;
+    margin-left: 6px;
+}
+.div-detalleuser p:nth-child(2){
+    font-size: 16px;
+    font-weight:500;
+    margin-left: 6px;
+}
+
+.div-conectarbtn{
+    width: 156px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-conectar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 14px 35px;
+    border-radius: 98px;
+    background-color: #0E172C;
+    color: #fff;
+}
+
+.flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    position: absolute;
+    background-color: #0E172C;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 24px;
+    margin-left: 24px;
+}

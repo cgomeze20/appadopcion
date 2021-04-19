@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/cuarta_copy.css">
+    <title>Cuarta copy</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor_cabecera margen">
+            <p class="adopta">Adopta una adorable <span>mascota</span> </p>
+            <p class="categoria">Categorías de mascotas</p>
+            <div class="contenedor_botones">
+                <div class="contenedor_perrobtn">
+                    <div class="leftside_perro">
+                        <img src="img/perroicon.png" alt="">
+                    </div>
+                    <div class="rightside_perro">
+                        <a href="cuarta.html">Perros</a>
+                    </div>
+                </div>
+                <div class="contenedor_gatobtn">
+                    <div class="leftside_gato">
+                        <img src="img/gatoicon.png" alt="">
+                    </div>
+                    <div class="rightside_gato">
+                        <p>Gatos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="fotos">
+            <div class="fotos_contenedorleft">
+                <img class="imagen" src="img/gatoone.png" alt="">
+                <img class="imagen" src="img/gatotwo.png" alt="">
+            </div>
+            <div class="fotos_contenedorright">
+                <img class="imagen" src="img/gatothree.png" alt="">
+                <img class="imagen" src="img/gatofour.png" alt="">
+            </div>
+        </section>
+        <div class="menu_bottom">
+            <a class="tab" href="tercera.html">
+                <i class='bx bx-home-alt'><span class="span">Home</span></i>
+            </a>
+            <a class="tab" href="mensaje.html">
+                <i class='bx bx-message-rounded'><span class="span">Mensaje</span></i>
+            </a>
+            <a class="tab active" href="mascotas_favoritas.html">
+                <i class='bx bx-heart'><span class="span activo" >Favoritos</span></i>
+            </a>
+            <a class="tab " href="perfil.html">
+                <i class='bx bx-user'><span class="span">Perfil</span></i>
+            </a>
+    </div>
+    </div>
+
+    <script>
+        let imagen = document.querySelectorAll('.imagen')
+       imagen.forEach(el => {
+           el.addEventListener('click',function(){
+               window.location.href = 'quinta_copy.html'
+           })
+       })
+    </script>
+
+</body>
+</html>
